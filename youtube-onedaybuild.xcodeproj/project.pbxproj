@@ -18,6 +18,7 @@
 		F69479D524EACBE600FA1830 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69479D424EACBE600FA1830 /* Model.swift */; };
 		F69479D724EACECB00FA1830 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69479D624EACECB00FA1830 /* Secrets.swift */; };
 		F69479D924EACFC500FA1830 /* SecretsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69479D824EACFC500FA1830 /* SecretsTemplate.swift */; };
+		F69479DB24EAD55400FA1830 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69479DA24EAD55400FA1830 /* Response.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		F69479D424EACBE600FA1830 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		F69479D624EACECB00FA1830 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		F69479D824EACFC500FA1830 /* SecretsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretsTemplate.swift; sourceTree = "<group>"; };
+		F69479DA24EAD55400FA1830 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				F69479D424EACBE600FA1830 /* Model.swift */,
 				F69479D624EACECB00FA1830 /* Secrets.swift */,
 				F69479D824EACFC500FA1830 /* SecretsTemplate.swift */,
+				F69479DA24EAD55400FA1830 /* Response.swift */,
 			);
 			path = "youtube-onedaybuild";
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				F69479BD24EAC02A00FA1830 /* AppDelegate.swift in Sources */,
 				F69479D724EACECB00FA1830 /* Secrets.swift in Sources */,
 				F69479BF24EAC02A00FA1830 /* SceneDelegate.swift in Sources */,
+				F69479DB24EAD55400FA1830 /* Response.swift in Sources */,
 				F69479D524EACBE600FA1830 /* Model.swift in Sources */,
 				F69479D924EACFC500FA1830 /* SecretsTemplate.swift in Sources */,
 				F69479D124EAC8CF00FA1830 /* Constants.swift in Sources */,
