@@ -8,7 +8,14 @@
 
 import Foundation
 
+protocol ModelDelegate {
+    func videosFetched(_ videos: [Video])
+}
+
 class Model {
+    
+    var delegate: ModelDelegate?
+    
     func getVideos() {
         //create a url object
         let url = URL(string: Constants.API_URL)
@@ -33,7 +40,15 @@ class Model {
                 
                 let response = try decoder.decode(Response.self, from: data!)
                 
-                dump(response)
+                //alert the delegate
+                if(response.items != nil) {
+                    //dispatch to main thread to update table view
+                    DispatchQueue.main.async {
+                        self.delegate?.videosFetched(response.items!)
+                    }
+                    
+                }
+                
             }
             catch {
                 //todo
