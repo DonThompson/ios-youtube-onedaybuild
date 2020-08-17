@@ -13,5 +13,6 @@ struct Constants {
     static var PLAYLIST_ID = "PLMRqhzcHGw1aLoz4pM_Mg2TewmJcMg9ua"
     static var API_URL = "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=\(PLAYLIST_ID)&key=\(Secrets.API_KEY)"
     static var VIDEOCELL_ID = "VideoCell"
+    static var YT_EMBED_URL = "https://www.youtube.com/embed/"
 }
 

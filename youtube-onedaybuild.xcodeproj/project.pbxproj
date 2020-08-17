@@ -21,6 +21,8 @@
 		F69479DB24EAD55400FA1830 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69479DA24EAD55400FA1830 /* Response.swift */; };
 		F69479DD24EADE5600FA1830 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69479DC24EADE5600FA1830 /* VideoTableViewCell.swift */; };
 		F6C3840B24EAE39A00F818B2 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C3840A24EAE39A00F818B2 /* CacheManager.swift */; };
+		F6C3840D24EAE68B00F818B2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C3840C24EAE68B00F818B2 /* DetailViewController.swift */; };
+		F6C3841024EAE80F00F818B2 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6C3840F24EAE80F00F818B2 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		F69479DA24EAD55400FA1830 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		F69479DC24EADE5600FA1830 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 		F6C3840A24EAE39A00F818B2 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		F6C3840C24EAE68B00F818B2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F6C3840F24EAE80F00F818B2 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6C3841024EAE80F00F818B2 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +63,7 @@
 			children = (
 				F69479BB24EAC02A00FA1830 /* youtube-onedaybuild */,
 				F69479BA24EAC02A00FA1830 /* Products */,
+				F6C3840E24EAE80E00F818B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				F69479C024EAC02A00FA1830 /* ViewController.swift */,
+				F6C3840C24EAE68B00F818B2 /* DetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -129,6 +136,14 @@
 				F6C3840A24EAE39A00F818B2 /* CacheManager.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F6C3840E24EAE80E00F818B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6C3840F24EAE80F00F818B2 /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +220,7 @@
 				F69479C124EAC02A00FA1830 /* ViewController.swift in Sources */,
 				F69479BD24EAC02A00FA1830 /* AppDelegate.swift in Sources */,
 				F69479D724EACECB00FA1830 /* Secrets.swift in Sources */,
+				F6C3840D24EAE68B00F818B2 /* DetailViewController.swift in Sources */,
 				F69479BF24EAC02A00FA1830 /* SceneDelegate.swift in Sources */,
 				F69479DB24EAD55400FA1830 /* Response.swift in Sources */,
 				F69479D524EACBE600FA1830 /* Model.swift in Sources */,
